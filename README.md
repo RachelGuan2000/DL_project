@@ -1,4 +1,4 @@
-# Double-Embeddings-and-CNN-based-Sequence-Labeling-for-Aspect-Extraction
+# DL Project Double-Embeddings-and-CNN-based-Sequence-Labeling-for-Aspect-Extraction
 Code for our ACL 2018 paper "[Double Embeddings and CNN-based Sequence Labeling for Aspect Extraction](http://www.aclweb.org/anthology/P18-2094)"
 
 ## Problem to Solve
@@ -12,14 +12,14 @@ All code are tested under python 3.6.2 + pytorch 0.2.0_4
 
 ## Steps to Run Code
 
-Step 1: Download general embeddings (GloVe: http://nlp.stanford.edu/data/glove.840B.300d.zip ), save it in data/embedding/gen.vec 
+Step 1: Download general embeddings (GloVe: http://nlp.stanford.edu/data/glove.840B.300d.zip ), save it in data/embedding/gen.vec
 
 Step 2: Download Domain Embeddings (You can find the link under this paper's title in https://www.cs.uic.edu/~hxu/ ), save them in data/embedding
 
 Step 3:
 Download and install fastText (https://github.com/facebookresearch/fastText) to fastText/
 
-Step 4: 
+Step 4:
 Download official datasets to data/official_data/
 
 Download official evaluation scripts to script/
@@ -62,7 +62,7 @@ python script/train.py
 ```
 Train the restaurant model
 ```
-python script/train.py --domain restaurant 
+python script/train.py --domain restaurant
 ```
 
 Step 8: Evaluate Laptop dataset
@@ -71,7 +71,7 @@ python script/evaluation.py
 ```
 Evaluate Restaurant dataset
 ```
-python script/evaluation.py --domain restaurant 
+python script/evaluation.py --domain restaurant
 ```
 
 ## Citation
